@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700|Quattrocento:700');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    background: white;
+    height: 100vh;
+    margin: 0;
+}
+
+body.switched {
+    transition: color 0.6s, background-color 0.6s;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30pt;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 14pt;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #BBB;
+}
+
+.header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/*
+  Built-in class:
+    # author: Name
+*/
+.byline {
+    font-style: italic;
+}
+
+/* 
+  Enables <iframe> support work on itch.io when using mobile iOS
+*/
+.outerContainer {
+    display: block;
+    margin: 0;
+    padding: 0;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background: white;
+}
+
+.header {
+    margin-top: 40px;
+}
+
+.switched .container {
+    transition: background-color 0.6s;
+}
+
+p {
+    font-size: 13pt;
+    color: #888;
+    line-height: 1.7em;
+    font-weight: lighter;
+}
+
+a {
+    color: #b97c2c;
+    font-family: sans-serif;
+    transition: color 0.6s;
+}
+
+a:hover {
+    color: black;
+    transition: color 0.1s;
+}
+
+strong {
+    color: black;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.container .hide {
+    opacity: 0.0;
+}
+
+.container .invisible {
+    display: none;
+}
+
+.container>* {
+    opacity: 1.0;
+    transition: opacity 1.0s;
+}
+
+/*
+  Class applied to all choices
+  (Will always appear inside <p> element by default.)
+*/
+.choice {
+    text-align: center;
+    line-height: 1.7em;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/*
+  Class applied to choice links
+*/
+.choice a {
+    display: inline-block;
+    padding: 5px 15px;
+    font-weight: normal;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 1000px;
+}
+
+/* 
+  Built-in class:
+    The End # CLASS: end
+*/
+.end {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#controls {
+    font-size: 10pt;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#controls a {
+    font-weight: normal;
+    border: 1px solid #fff;
+    padding: 5px 8px;
+    border-radius: 900px;
+    cursor: pointer;
+}
+
+#controls [disabled] {
+    opacity: 0.5;
+}
+
+#controls>*:not(:first-child) {
+    margin-left: 5px;
+}
+
+/* 
+  Dark Theme (Added in Inky 0.10.0)
+    # theme: dark
+*/
+
+body.dark {
+    background: black;
+    color: white;
+}
+
+.dark h2 {
+    color: #666;
+}
+
+.dark .container {
+    background: black;
+}
+
+.dark .written-in-ink {
+    background: black;
+}
+
+.dark a {
+    color: #cc8f1a;
+    transition: color 0.6s;
+}
+
+.dark a:hover {
+    color: white;
+}
+
+.dark strong {
+    color: white;
+}
+
+.dark #controls [disabled] {
+    color: #444;
+}
+
+.dark .end {
+    color: white;
+}
+
+.dark #controls {
+    background: black;
+}
+
+/* 
+  Default Theme (Added in Inky 0.10.0)
+    # theme: dark
+*/
+
+body.default_theme {
+    background: linear-gradient(145deg, rgba(119,17,158,1) 0%, rgba(166,37,179,0.6601234243697479) 47%, rgba(0,144,255,0.3463979341736695) 100%);
+    color: white;
+    animation: gradient 15s ease infinite;
+}
+
+
+body.default_theme #controls a:hover {
+    background-color: white;
+    color: rgba(119,17,158,1);
+}
+
+body.dark_theme {
+    background: linear-gradient(145deg, rgba(26,26,26,1) 0%, rgba(62,60,61,0.6601234243697479) 47%, rgba(50,50,50,0.2567620798319328) 100%);
+    animation: gradient 15s ease infinite;
+}
+
+body.dark_theme #controls a:hover {
+    background-color: white;
+    color: rgba(26,26,26,1);
+}
+
+body.danger_theme {
+    background: linear-gradient(145deg, rgba(147,15,17,1) 0%, rgba(179,37,84,0.6601234243697479) 47%, rgba(255,0,0,0.2567620798319328) 100%);
+    animation: gradient 15s ease infinite;
+}
+
+body.danger_theme #controls a:hover {
+    background-color: white;
+    color: rgba(147,15,17,1);
+}
+
+.default_theme h2 {
+    color: white;
+}
+
+.default_theme .container {
+    background: transparent;
+}
+
+.default_theme .written-in-ink {
+    background: transparent;
+}
+
+.default_theme a {
+    color: white;
+    transition: color 0.6s;
+}
+
+.default_theme p {
+    color: white;
+}
+
+.default_theme a:hover {
+    color: white;
+}
+
+.default_theme strong {
+    color: white;
+}
+
+.default_theme #controls [disabled] {
+    color: white;
+}
+
+.default_theme .end {
+    color: white;
+}
+
+.default_theme #controls {
+    background: transparent;
+}
+
+.heading {
+    font-size: 24pt;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
