@@ -8,7 +8,7 @@ https://ocefo.github.io/Let-s-squat/
 
 # Auteur·ice
 
-Océane Forster (Bachelor es Lettres, UNIL)
+Océane Forster (Bachelor es Lettres, UNIL). 
 Cette fiction a été réalisée dans le cadre du cours "Fiction Interactive" donné par prof. Isaac Pante, automne 2022.
 
 # But
