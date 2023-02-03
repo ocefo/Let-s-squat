@@ -9,6 +9,7 @@ https://ocefo.github.io/Let-s-squat/
 # Auteur·ice
 
 Océane Forster (Bachelor es Lettres, UNIL)
+Cette fiction a été réalisée dans le cadre du cours "Fiction Interactive" donné par prof. Isaac Pante, automne 2022.
 
 # But
 
@@ -16,7 +17,7 @@ Faire découvrir quelques usages et quelques outils pour questionner la proprié
 
 # Description 
 
-Face à la précarité étudiante et la difficulté croissante de trouver un logement abordable, il est parfois bon de rappeler que des alternatives existent...Avec une bande d'amiexs, embarquez-vous dans la préparation d'une occupation illicite.
+Face à la précarité étudiante et la difficulté croissante de trouver un logement abordable, il est parfois bon de rappeler que des alternatives existent...Avec une bande d'amiexs, embarquez-vous dans la préparation d'une occupation illicite. 
 
 
 # Améliorations possibles
