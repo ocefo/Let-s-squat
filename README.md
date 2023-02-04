@@ -6,9 +6,10 @@ Let’s squat
 
 https://ocefo.github.io/Let-s-squat/
 
-# Auteur·ice
+# Auteur·ice et contexte de réalisation
 
 Océane Forster (Bachelor es Lettres, UNIL). 
+
 Cette fiction a été réalisée dans le cadre du cours "Fiction Interactive" donné par prof. Isaac Pante, automne 2022.
 
 # But
@@ -22,6 +23,9 @@ Face à la précarité étudiante et la difficulté croissante de trouver un log
 ## Capture d'écran 
 ![lets squat printscreen](lets-squat-screenshot.png)
 
-# Améliorations possibles
+# Ressources liées
 
-La création d’un univers sonore et visuel plus recherché, en accord avec la thématique enrichirait l’expérience. De même proposer des avatars issus de catégories démographiques diverses, ainsi que des cadres de fictions divers serait intéressant. (Il n’est pas pareil de créer un lieu d’hébergement d’urgence, une colocation ou un centre culturel, et les conséquences ne sont pas les mêmes selon que l’on est étudiant, réfugié sans papier, SDF, artiste, etc.) 
+- Base de données évolutive sur la vie militante en Suisse romande et ailleurs : https://www.noussommespartout.org/categories/squat-occupations-logement/
+- Site d'informations et luttes en Suisse romande : https://renverse.co/Logement-Squat
+- Association pour le logement des jeunes en formation : https://www.aljf.ch (pour une approche plus légaliste)
+- Boite à outils pour un squat DIY : https://fr.squat.net/tag/le-squat-de-a-a-z/ (Attention ressource française, la situation juridique peut différer en Suisse)
