@@ -234,7 +234,7 @@ body.dark {
 */
 
 body.default_theme {
-    background: linear-gradient(145deg, rgba(119,17,158,1) 0%, rgba(166,37,179,0.6601234243697479) 47%, rgba(0,144,255,0.3463979341736695) 100%);
+    background: linear-gradient(145deg, rgba(119,17,158,1) 0%, rgba(166,37,179,0.6601234243697479) 100%;
     color: white;
     animation: gradient 15s ease infinite;
 }
@@ -246,7 +246,7 @@ body.default_theme #controls a:hover {
 }
 
 body.dark_theme {
-    background: linear-gradient(145deg, rgba(26,26,26,1) 0%, rgba(62,60,61,0.6601234243697479) 47%, rgba(50,50,50,0.2567620798319328) 100%);
+    background: linear-gradient(145deg, rgba(26,26,26,1) 0%, rgba(62,60,61,0.6601234243697479) 47%, rgba(50,50,50,1) 100%);
     animation: gradient 15s ease infinite;
 }
 
@@ -256,7 +256,7 @@ body.dark_theme #controls a:hover {
 }
 
 body.danger_theme {
-    background: linear-gradient(145deg, rgba(147,15,17,1) 0%, rgba(179,37,84,0.6601234243697479) 47%, rgba(255,0,0,0.2567620798319328) 100%);
+    background: linear-gradient(145deg, rgba(147,15,17,1) 0%, rgba(179,37,84,1) 47%, rgba(255,0,0,1) 100%);
     animation: gradient 15s ease infinite;
 }
 
