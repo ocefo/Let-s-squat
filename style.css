@@ -234,7 +234,7 @@ body.dark {
 */
 
 body.default_theme {
-    background: linear-gradient(145deg, rgba(119,17,158,1) 0%, rgba(166,37,179,0.6601234243697479) 100%;
+    background: linear-gradient(145deg, rgba(119,17,158,1) 0%, rgba(166,37,179,0.6601234243697479) 100%);
     color: white;
     animation: gradient 15s ease infinite;
 }
