@@ -19,6 +19,8 @@ Faire découvrir quelques usages et quelques outils pour questionner la proprié
 
 Face à la précarité étudiante et la difficulté croissante de trouver un logement abordable, il est parfois bon de rappeler que des alternatives existent...Avec une bande d'amiexs, embarquez-vous dans la préparation d'une occupation illicite. 
 
+## Capture d'écran 
+![lets squat printscreen](lets-squat-screenshot.png)
 
 # Améliorations possibles
 
